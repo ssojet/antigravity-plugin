@@ -1,0 +1,49 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "ssojet",
+  "displayName": "SSOJet",
+  "version": "1.0.0",
+  "description": "Add enterprise SSO login, machine-to-machine auth, and team management to any app with SSOJet. Covers Next.js, React, Node, Python, Go, .NET, Java, PHP, mobile.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Add Sign in with SSO to my app with SSOJet",
+    "Set up team and tenant management with SSOJet",
+    "Debug why my SSOJet login callback is failing"
+  ],
+  "author": {
+    "name": "SSOJet",
+    "email": "support@ssojet.com",
+    "url": "https://ssojet.com"
+  },
+  "homepage": "https://docs.ssojet.com",
+  "repository": "https://github.com/ssojet/antigravity-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ssojet",
+    "sso",
+    "oidc",
+    "oauth",
+    "authentication",
+    "enterprise-sso",
+    "saml",
+    "scim",
+    "team-management",
+    "multi-tenant",
+    "b2b",
+    "nextjs",
+    "react",
+    "angular",
+    "node",
+    "express",
+    "python",
+    "flask",
+    "go",
+    "dotnet",
+    "java",
+    "springboot",
+    "laravel",
+    "php",
+    "android",
+    "ios"
+  ]
+}
