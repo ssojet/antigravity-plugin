@@ -192,7 +192,7 @@ router.get('/callback', async (req, res) => {
     // Clear the OIDC state from session
     delete req.session.oidc_state;
 
-    // TODO: Create a session for the user based on `userinfo`
+    // Your app: Create a session for the user based on `userinfo`
     req.session.user = userinfo;
     console.log('Authenticated User:', userinfo);
 

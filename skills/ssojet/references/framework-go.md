@@ -280,7 +280,7 @@ func CallbackHandler(w http.ResponseWriter, r *http.Request) {
 		MaxAge: -1,
 	})
 
-	// TODO: Create a session for the user based on claims
+	// Your app: Create a session for the user based on claims
 	claimsJSON, _ := json.Marshal(claims)
 	http.SetCookie(w, &http.Cookie{
 		Name:     "user_session",

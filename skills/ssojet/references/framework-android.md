@@ -229,7 +229,7 @@ class LoginActivity : Activity() {
         authService.performTokenRequest(tokenRequest) { tokenResponse, exception ->
             if (tokenResponse != null) {
                 Log.d("OIDC", "Access Token: ${tokenResponse.accessToken}")
-                // TODO: Use access token to fetch user info and create session
+                // Your app: Use access token to fetch user info and create session
                 val intent = Intent(this, DashboardActivity::class.java)
                 startActivity(intent)
                 finish()

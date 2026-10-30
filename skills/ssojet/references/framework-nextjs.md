@@ -169,7 +169,7 @@ export async function GET(request: NextRequest) {
     const tokenSet = await client.callback('http://localhost:3000/api/auth/callback', params, { state: storedState });
     const userinfo = await client.userinfo(tokenSet.access_token!);
     
-    // TODO: Create a session for the user based on `userinfo`
+    // Your app: Create a session for the user based on `userinfo`
     console.log('Authenticated User:', userinfo);
 
     // Redirect to the dashboard or intended page

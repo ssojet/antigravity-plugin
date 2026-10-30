@@ -198,7 +198,7 @@ def callback():
         if not userinfo:
             userinfo = oauth.ssojet.userinfo()
 
-        # TODO: Create a session for the user based on `userinfo`
+        # Your app: Create a session for the user based on `userinfo`
         session['user'] = dict(userinfo)
         print('Authenticated User:', userinfo)
 

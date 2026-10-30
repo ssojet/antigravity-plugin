@@ -164,7 +164,7 @@ try {
     $email = $oidc->requestUserInfo('email');
     $sub = $oidc->requestUserInfo('sub');
 
-    // TODO: Create a session for the user
+    // Your app: Create a session for the user
     $_SESSION['user'] = [
         'sub'   => $sub,
         'name'  => $name,
